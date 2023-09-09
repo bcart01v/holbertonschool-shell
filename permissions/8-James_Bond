@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u= g= o+a
+chmod u-rwk g-rwx o-a
