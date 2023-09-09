@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u-rwk g-rwx o-a
+chmod u-rwx g-rwx o-a
