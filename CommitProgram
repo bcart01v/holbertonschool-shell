@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the commit message from the user
+CommitMessage=$(echo "Enter a commit message: ")
+
+git add .
+git commit -m "$CommitMessage"
+git push
