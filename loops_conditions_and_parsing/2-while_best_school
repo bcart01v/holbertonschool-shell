@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script also prints Best School 10 times, but using a while statement
-cont=1
-while [ $cont -le 10 ];
+counter=1
+while [ $counter -le 10 ];
 do
 echo "Best School"
-let cont=cont+1
+((counter++))
 done
