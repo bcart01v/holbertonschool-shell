@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# We need to look at the apache log, and get the ip address
+awk '{print $1,$9}' apache-access.log
