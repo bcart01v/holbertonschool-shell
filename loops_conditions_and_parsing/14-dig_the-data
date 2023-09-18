@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# This does the same thing as the last script, except with a few more steps! 
+# This script does the same thing as the last one, except a few extra steps! 
 awk '{print $1,$9}' apache-access.log | sort | uniq -c | sort -nr
