@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # This script will display the contents of the passwd file
-while IFS = read -r L; do
-	echo "$L" | cut -d ':' -f1,4,7
-done < /etc/passwd
+# Open the file for reading
+file=/etc/passwd
+while IFS=':' read -r username uid shell; do
+	  # Print the username, UID, and shell
+	    echo "$username $uid $shell"
+    done < "$file"
